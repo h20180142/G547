@@ -1,4 +1,5 @@
 Servo Motor Control using ATmega8A
+https://github.com/h20180142/G547/blob/master/Project_Servomotor_libusb_ioctl/IMG_20190428_162544450_HDR1.jpg
 
 ->Summary:
 The main aim of this project is to control servo motor connected to ATmega8 using CLI. Servos are connected with three-wire-cables. A red and a black one for the power, and a yellow one for the signal. Power has to be between 4.8 and 6 volts, so the 5 volts from the USB-port is in the range. The angle of the servo is controlled with pulse width modulation (PWM).
@@ -6,6 +7,7 @@ The main aim of this project is to control servo motor connected to ATmega8 usin
 Two implementations were tested. One using libusb and another using ioctl.
 
 ->Prototype:
+![alt text](https://github.com/h20180142/G547/blob/master/Project_Servomotor_libusb_ioctl/IMG_20190428_162544450_HDR1.jpg)
 
 ->Compiling & Uploading the firmware:
 
